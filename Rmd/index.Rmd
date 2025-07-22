@@ -6,7 +6,7 @@ site: bookdown::bookdown_site
 output: bookdown::bs4_book
 documentclass: book
 description: |
-  Survey Research in the context of Medical Laboratory Science
+  Survey Research for the Laboratory Professional
 ---
 
 # **About** {-}
@@ -15,7 +15,7 @@ This module provides Medical Laboratory Science students with a comprehensive un
 
 Content covered includes:
 
-* [Foundations of Survey Research](learning-objectives-1.html)
+* [Foundations](learning-objectives-1.html)
 * [Survey Instrument Design](learning-objectives-2.html)
 * [Sampling Strategies & Data Collection](learning-objectives-3.html)
 * [Data Management, Quality, & Ethics](learning-objectives-4.html)
