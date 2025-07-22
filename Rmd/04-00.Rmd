@@ -1,6 +1,6 @@
 # (PART\*) Data Management, Quality, & Ethics {-}
 
-# Start Here
+# Start Here {-}
 
 Data Management, Quality, and Ethics is the critical process of transforming raw survey responses into a trustworthy dataset
 

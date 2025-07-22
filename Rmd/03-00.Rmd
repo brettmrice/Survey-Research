@@ -1,6 +1,6 @@
 # (PART\*) Sampling Strategies & Data Collection {-}
 
-# Start Here
+# Start Here {-}
 
 Sampling Strategies and Data Collection is a core component of research that outlines how to select a representative group from a larger population and the methods used to gather information from them
 
