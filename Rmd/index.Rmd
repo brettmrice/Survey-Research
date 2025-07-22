@@ -16,7 +16,7 @@ This module provides Medical Laboratory Science students with a comprehensive un
 Content covered includes:
 
 * [Foundations](learning-objectives-1.html)
-* [Survey Instrument Design](learning-objectives-2.html)
+* [Instrument Design](learning-objectives-2.html)
 * [Sampling Strategies & Data Collection](learning-objectives-3.html)
 * [Data Management, Quality, & Ethics](learning-objectives-4.html)
 * [Basic Data Analysis](learning-objectives-5.html)
@@ -36,7 +36,6 @@ Upon successful completion of this module, students will be able to:
 * Demonstrate basic proficiency in preparing survey data for analysis
 * Understand fundamental statistical concepts relevant to survey data analysis (e.g., descriptive statistics, reliability, validity)
 * Recognize ethical considerations in survey research and ensure compliance with relevant guidelines
-* Develop a preliminary proposal for a survey research project
 
 ## **Pedagogical Approach** {-}
 
