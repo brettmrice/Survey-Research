@@ -1,0 +1,51 @@
+# Survey Error & Bias {-}
+
+At the heart of survey quality lies the concept of **Total Survey Error**, which represents the difference between a survey’s estimate and the true value of the parameter in the target population. Achieving a perfect, error-free survey is impossible; therefore, the goal of a diligent researcher is not to eliminate all error, but to understand its potential sources, minimize them wherever possible, and be transparent about the remaining limitations. These errors can be broadly categorized into errors of non-observation (when we fail to collect data from parts of our target population) and errors of observation (when the data we collect is inaccurate)
+
+## **Sampling Error** {-}
+
+Sampling error is the most commonly understood type of survey error. It is the inherent degree of uncertainty that arises simply because data is collected from a sample rather than the entire population. By chance alone, any given sample may not perfectly reflect the population it was drawn from. For example, a random sample of 1,000 voters might show 52% support for a candidate, while the true support among all voters is 51%. This difference is due to sampling variability. While it cannot be eliminated, it is the only type of survey error that can be mathematically estimated, typically expressed as the **margin of error**
+
+**Strategies for Minimization**
+
+* **Increase the Sample Size:** The most direct way to reduce sampling error is to increase the number of respondents. Larger samples provide more stable estimates and smaller margins of error
+* **Use Efficient Sampling Designs:** Methods like stratified sampling, which ensures that key subgroups of the population are proportionally represented in the sample, can reduce sampling error for a given sample size compared to simple random sampling
+
+## **Coverage Error** {-}
+
+Coverage error occurs when the list or framework from which a sample is drawn—the **sampling frame**—does not accurately represent the target population. This leads to a systematic bias because some segments of the population have a zero or reduced chance of being selected. For instance, using a telephone directory as a sampling frame to survey all adults in a city would systematically exclude those with unlisted numbers, those who only use mobile phones, and households without any phone service. These excluded groups may differ significantly from the included groups, biasing the results
+
+Strategies for Minimization:
+
+* **Use Multiple and Up-to-Date Sampling Frames:** Combining several frames, such as landline and mobile phone lists or address-based and email lists, can improve coverage. It is crucial to use the most current frames available
+* **Identify and Correct for Gaps:** Before launching the survey, carefully evaluate the sampling frame against the known characteristics of the target population
+* **Statistical Adjustment:** After data collection, weighting the sample data to match known population totals (e.g., from census data) can help correct for some coverage deficiencies
+
+## **Non-response Bias** {-}
+
+Non-response bias is a critical challenge that occurs when the people who do not respond to a survey are systematically different from those who do. The problem is not simply a smaller sample size; it's that the resulting pool of respondents is no longer representative of the target population. For example, in a survey about workplace satisfaction, employees who are extremely unhappy or extremely happy might be more motivated to respond than those who are moderately content. The resulting data would overrepresent extreme views and provide a skewed picture of overall satisfaction
+
+Strategies for Minimization:
+
+* **Design and Piloting:** Create a well-designed, engaging, and concise survey that is easy for respondents to complete, reducing respondent burden
+* **Multiple Contact Attempts and Modes:** Use reminders and follow-ups through various channels (email, text message, phone call) to encourage participation from initial non-respondents
+* **Offer Incentives:** Providing a small, appropriate incentive can boost response rates, though care must be taken that the incentive itself does not bias the sample
+* **Transparency in Reporting:** Always report the response rate and discuss the potential for non-response bias when presenting findings. When possible, researchers can compare the demographic characteristics of respondents to the target population to assess the magnitude of potential bias
+
+## **Measurement Error** {-}
+
+Measurement error occurs when the value recorded in the survey is different from the respondent’s true value. This error arises from the data collection process itself and can be introduced by the survey instrument, the interviewer, or the respondent. Unlike the previous errors, measurement error is about the accuracy of the answers given
+
+Common sources of measurement error include:
+
+* **Poorly Worded Questions:** Leading, ambiguous, complex, or double-barreled questions can confuse respondents and result in inaccurate answers. For example, asking "Don't you agree that the proposed tax increase is unfair?" encourages agreement
+* **Respondent Factors:** Respondents may not recall information accurately (recall error), may misunderstand a question, or may provide socially desirable answers to present themselves in a favorable light (social desirability bias)
+* **Interviewer Effects:** The way an interviewer asks a question, their tone of voice, or their demographic characteristics can unintentionally influence a respondent's answers
+* **Survey Mode Effects:** The medium used for the survey (e.g., online, telephone, in-person) can impact responses. Sensitive topics, for instance, often yield more honest answers in anonymous online surveys than in face-to-face interviews
+
+Strategies for Minimization:
+
+* **Thorough Pre-testing:** Pilot testing the survey questionnaire with a small sample from the target population is the single most effective way to identify and fix problematic questions
+* **Clear and Neutral Wording:** Use simple, direct, and neutral language. Ensure questions ask about only one concept at a time
+* **Standardized Interviewer Training:** Train interviewers to follow the survey script precisely and maintain a neutral demeanor with all respondents
+* **Ensure Confidentiality and Anonymity:** Reassuring respondents that their individual answers will be kept confidential can reduce social desirability bias and encourage more truthful responses

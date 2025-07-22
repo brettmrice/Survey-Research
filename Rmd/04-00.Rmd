@@ -1,0 +1,22 @@
+# (PART\*) Data Management, Quality, & Ethics {-}
+
+# Start Here
+
+Data Management, Quality, and Ethics is the critical process of transforming raw survey responses into a trustworthy dataset
+
+## Learning Objectives {-}
+
+Based on the provided text, here are 5 key learning objectives:
+
+*  **Understand Data Transformation and Documentation:** Describe the processes of data entry and coding used to convert raw survey responses into a structured dataset, and explain the critical role of a codebook in documenting variable names, labels, and missing value codes
+*  **Identify and Address Survey Errors:** Differentiate between the major sources of Total Survey Error—sampling error, coverage error, non-response bias, and measurement error—and identify practical strategies to minimize each
+*  **Apply Data Cleaning and Validation Techniques:** Identify common data quality issues such as missing data, outliers, and logical inconsistencies, and describe appropriate methods for handling them to ensure the dataset is accurate and reliable for analysis
+*  **Explain Core Ethical Principles in Research:** Articulate the fundamental ethical obligations in survey research, including securing informed consent, ensuring participant anonymity and confidentiality, and maintaining robust data security
+*  **Manage and Interpret Missing Data:** Distinguish between different reasons for missing data (e.g., Don't Know, Refused, Not Applicable) and understand the analytical implications of data being Missing Completely at Random (MCAR), Missing at Random (MAR), or Missing Not at Random (MNAR)
+
+<div class="section level2 unnumbered">
+  <h2 class="no-stick"><strong>Audio Overview</strong></h2>
+  <center>
+    <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.podcasts.apple.com/us/podcast/sr-data-management-quality-ethics/id1780125002?i=1000718486882"></iframe>
+  </center>
+</div>

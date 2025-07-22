@@ -1,0 +1,20 @@
+# (PART\*) Instrument Design {-}
+
+# Start Here {-}
+
+Survey Instrument Design is the systematic process of creating the questionnaire used to collect research data. It focuses on much more than just writing a list of questions
+
+## Learning Objectives {-}
+
+*  **Apply Principles of Question Construction:** Apply core principles of questionnaire construction, such as ensuring clarity and neutrality while avoiding leading, loaded, and double-barreled questions
+*  **Select Appropriate Question Types:** Distinguish between open-ended and closed-ended questions, and identify appropriate uses for various closed-ended formats (dichotomous, multiple-choice, and rating scales like Likert)
+*  **Ensure Measurement Quality:** Define reliability (consistency) and validity (accuracy) and explain their critical importance when designing measurement scales to ensure the data is trustworthy and measures the intended construct
+*  **Design an Effective Questionnaire Flow:** Structure a questionnaire using the "funnel" approach, thematic grouping, and logical skip patterns to create an intuitive and engaging experience for the respondent that improves data quality
+*  **Justify the Need for Pre-testing:** Explain the critical importance and function of pre-testing and piloting a survey instrument to identify and correct flaws in wording, flow, and technology before full-scale deployment
+
+<div class="section level2 unnumbered">
+  <h2 class="no-stick"><strong>Audio Overview</strong></h2>
+  <center>
+    <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.podcasts.apple.com/us/podcast/sr-instrument-design/id1780125002?i=1000718486907"></iframe>
+  </center>
+</div>

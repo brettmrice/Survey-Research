@@ -1,0 +1,23 @@
+# Types of Surveys {-}
+
+The power of a survey is determined not just by the questions it asks, but also by *when* and *how often* it is administered. The temporal dimension of a study design is fundamental to the kinds of conclusions a researcher can draw. Some surveys offer a simple snapshot of a population at a single moment, while others act like a time-lapse film, capturing dynamics and changes over months, years, or even decades. The primary distinction in this regard is between cross-sectional and longitudinal designs
+
+## **Cross-Sectional Surveys** {-}
+
+A cross-sectional survey is the most common type, representing a snapshot in time. It collects data from a population, or a representative subset, at one specific point in time. The goal is to describe the characteristics of that population, such as their beliefs, attitudes, or behaviors, at that particular moment. For example, a pre-election poll asking likely voters who they plan to vote for in the upcoming election is a cross-sectional study. Similarly, a survey of university students in September to gauge their anxiety levels at the start of the semester is cross-sectional. These surveys are relatively inexpensive and quick to administer. Their primary limitation, however, is that they cannot be used to analyze behavior over time or establish the temporal order of variables, which is a key component of determining causality. You might find a correlation between two variables, but you cannot say which one came first
+
+## **Longitudinal Surveys** {-}
+
+In contrast to the single snapshot of a cross-sectional survey, longitudinal surveys are designed to track changes over time. This approach involves collecting data at multiple points in time, allowing researchers to study dynamics, trends, and the effects of life events. Because they measure phenomena at more than one point, longitudinal studies are better suited for examining causal relationships and developmental patterns. While more powerful, they are also more complex, expensive, and time-consuming to conduct. There are three primary types of longitudinal surveys
+
+## **Trend Studies** {-}
+
+These studies examine changes within a population over time. The researcher administers the same survey to different samples of people drawn from the same general population at different times. For instance, a researcher might want to track consumer confidence in the economy. They could conduct a poll of 1,000 American adults every year. While the specific individuals surveyed each year would be different, they would all be representative of the same population: "American adults." This allows the researcher to identify trends in how the population as a whole is changing
+
+## **Cohort Studies** {-}
+
+A cohort study focuses on a specific subpopulation, or cohort, as it changes over time. A cohort is typically a group that shares a common starting point or life event, such as being born in the same decade ("Millennials"), graduating from college in the same year ("Class of 2020"), or getting married in the same period. Like a trend study, the researcher may draw different samples at each data collection point, but they are all drawn from the same original cohort. For example, a researcher could survey a sample from the "Class of 2020" in 2022, 2025, and 2030 to track their career progression and income. This isolates the experiences of a specific group from broader societal changes affecting other generations
+
+## **Panel Studies** {-}
+
+This is the most robust, and often most difficult, type of longitudinal study. A panel study collects data from the *same sample of individuals* (the panel) repeatedly over a period of time. Following the same people allows researchers to measure individual-level change directly. For example, a study might interview the same group of entrepreneurs every year for ten years to understand how their business strategies and personal well-being evolve. This design is the strongest for understanding causality, as you can see how an earlier event in an individual's life affects a later outcome. The major challenge of panel studies is *panel attrition*—the tendency for participants to drop out of the study over time, which can potentially bias the results if those who leave are different from those who stay

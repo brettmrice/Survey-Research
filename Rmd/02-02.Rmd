@@ -1,0 +1,29 @@
+# Types of Questions {-}
+
+The heart of any survey instrument lies in its questions. The type of question a researcher chooses dictates the nature of the data collected, the experience of the respondent, and the analytical methods that can be applied. Selecting the appropriate format is not merely a stylistic choice; it is a strategic decision that directly impacts the validity and utility of the survey's findings. The two primary categories are open-ended and closed-ended questions, each with its own set of variations and purposes
+
+## **Open-Ended Questions** {-}
+
+Open-ended questions invite respondents to answer in their own words, providing a text box or space for a free-form response. These questions are qualitative in nature and are invaluable for exploratory research. They do not constrain the respondent to a predefined set of answers, allowing for rich, nuanced, and unexpected insights to emerge. Researchers use open-ended questions when they want to understand the "why" behind an opinion, capture verbatim feedback, or explore a topic without imposing their own assumptions through preset answer choices
+
+For example, a question like, "What suggestions do you have for improving our employee onboarding process?" can uncover specific issues and creative solutions that a multiple-choice question might never reveal. However, the strength of open-ended questions is also their primary challenge. The resulting qualitative data is time-consuming to analyze, often requiring manual coding and thematic analysis to identify patterns. Overusing them can also lead to respondent fatigue, resulting in short, unhelpful answers or abandoned surveys
+
+## **Closed-Ended Questions** {-}
+
+In contrast, closed-ended questions provide respondents with a finite set of predefined answers from which to choose. These questions are the workhorses of quantitative survey research because they yield data that is easy to code, tabulate, and analyze statistically. They are quick for respondents to answer and allow for direct comparison across different respondent groups. The quality of data from a closed-ended question is entirely dependent on the quality of the answer options provided. The main types of closed-ended questions include dichotomous, multiple-choice, and rating scales
+
+### **Dichotomous Questions** {-}
+
+The simplest form of a closed-ended question, a dichotomous question presents only two opposing choices. These are most often used for gathering clear, unambiguous data on topics like behavior, ownership, or simple agreement. Common formats include Yes/No, True/False, or Agree/Disagree. While they are straightforward and easy to analyze, they can be overly simplistic, forcing respondents into a choice that doesn't fully capture their position. For example, asking "Do you enjoy your job?" with only a "Yes" or "No" option misses the vast middle ground of sentiment
+### **Multiple-Choice Questions** {-}
+
+Multiple-choice questions offer respondents a list of options and ask them to select one or more choices. A critical design principle is that the options for a single-answer question should be mutually exclusive (no overlap) and collectively exhaustive (all possible options are covered). To achieve the latter, a final option of "Other (please specify)" is often included. This format is highly flexible and can be used to gather data on preferences, behaviors, and demographic information. A common variation is the "select all that apply" question, which allows respondents to choose multiple options from the list, useful for understanding which combination of factors or products apply to an individual
+
+### **Rating Scales** {-}
+Rating scales are designed to measure the intensity or direction of a respondent's attitudes, opinions, and perceptions. Rather than a simple choice, respondents place their answer on a continuum. These scales are powerful tools for capturing degrees of feeling that dichotomous or multiple-choice questions cannot
+
+* **Likert Scales:** are one of the most common types, typically used to measure agreement or satisfaction. A statement is presented, and the respondent chooses from a scale such as: Strongly Agree, Agree, Neutral, Disagree, Strongly Disagree
+* **Semantic Differential Scales:** ask respondents to rate a concept on a multi-point scale anchored by two bipolar adjectives, such as "Easy to Use" versus "Difficult to Use," or "Modern" versus "Outdated."
+* **Numeric Scales:** ask respondents to provide a rating on a numerical continuum, for example, "On a scale of 0 to 10, where 0 is 'Not at all likely' and 10 is 'Extremely likely,' how likely are you to recommend our service to a friend?"
+
+Ultimately, a well-designed survey instrument often employs a strategic mix of question types. It may begin with closed-ended questions to gather quantitative benchmarks and demographic data, and then use a few well-placed open-ended questions at the end to capture qualitative details and final thoughts, balancing the need for structured data with the opportunity for genuine discovery

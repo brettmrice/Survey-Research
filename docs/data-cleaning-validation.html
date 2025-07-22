@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Data Cleaning &amp; Validation | SR</title>
+<meta name="author" content="Brett M. Rice">
+<meta name="description" content="Once survey data is collected and compiled, it exists in a raw state. This raw data is rarely, if ever, ready for immediate analysis. It often contains errors, gaps, and contradictions that can...">
+<meta name="generator" content="bookdown 0.43 with bs4_book()">
+<meta property="og:title" content="Data Cleaning &amp; Validation | SR">
+<meta property="og:type" content="book">
+<meta property="og:description" content="Once survey data is collected and compiled, it exists in a raw state. This raw data is rarely, if ever, ready for immediate analysis. It often contains errors, gaps, and contradictions that can...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Data Cleaning &amp; Validation | SR">
+<meta name="twitter:description" content="Once survey data is collected and compiled, it exists in a raw state. This raw data is rarely, if ever, ready for immediate analysis. It often contains errors, gaps, and contradictions that can...">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.9.0/transition.js"></script><script src="libs/bs3compat-0.9.0/tabs.js"></script><script src="libs/bs3compat-0.9.0/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><link rel="icon" type="image/png" href="imgs/favicon.png">
+<meta name="google-adsense-account" content="ca-pub-1344282930858290">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JERRQQFPF4"></script><script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-JERRQQFPF4');
+    </script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
+    
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">Survey Research</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">About</a></li>
+<li><a class="" href="author.html">Author</a></li>
+<li class="book-part">Foundations</li>
+<li><a class="" href="start-here.html">Start Here</a></li>
+<li><a class="" href="introduction-to-survey-research.html">Introduction to Survey Research</a></li>
+<li><a class="" href="strengths-limitations.html">Strengths &amp; Limitations</a></li>
+<li><a class="" href="types-of-surveys.html">Types of Surveys</a></li>
+<li><a class="" href="survey-research-process.html">Survey Research Process</a></li>
+<li><a class="" href="developing-research-questions-hypotheses.html">Developing Research Questions &amp; Hypotheses</a></li>
+<li><a class="" href="conceptualization-operationalization.html">Conceptualization &amp; Operationalization</a></li>
+<li class="book-part">Instrument Design</li>
+<li><a class="" href="start-here-1.html">Start Here</a></li>
+<li><a class="" href="questionnaire-construction-principles.html">Questionnaire Construction Principles</a></li>
+<li><a class="" href="types-of-questions.html">Types of Questions</a></li>
+<li><a class="" href="designing-scales.html">Designing Scales</a></li>
+<li><a class="" href="questionnaire-flow-formatting.html">Questionnaire Flow &amp; Formatting</a></li>
+<li><a class="" href="pre-testing-piloting.html">Pre-Testing &amp; Piloting</a></li>
+<li class="book-part">Sampling Strategies &amp; Data Collection</li>
+<li><a class="" href="start-here-2.html"><span class="header-section-number">1</span> Start Here</a></li>
+<li><a class="" href="introduction-to-sampling.html">Introduction to Sampling</a></li>
+<li><a class="" href="probability-sampling-techniques.html">Probability Sampling Techniques</a></li>
+<li><a class="" href="non-probability-sampling-techniques.html">Non-Probability Sampling Techniques</a></li>
+<li><a class="" href="determining-sample-size.html">Determining Sample Size</a></li>
+<li><a class="" href="modes-of-survey-administration.html">Modes of Survey Administration</a></li>
+<li class="book-part">Data Management, Quality, &amp; Ethics</li>
+<li><a class="" href="start-here-3.html"><span class="header-section-number">2</span> Start Here</a></li>
+<li><a class="" href="data-entry-coding.html">Data Entry &amp; Coding</a></li>
+<li><a class="active" href="data-cleaning-validation.html">Data Cleaning &amp; Validation</a></li>
+<li><a class="" href="survey-error-bias.html">Survey Error &amp; Bias</a></li>
+<li><a class="" href="ethical-considerations.html">Ethical Considerations</a></li>
+<li class="book-part">Basic Data Analysis</li>
+<li><a class="" href="start-here-4.html">Start Here</a></li>
+<li><a class="" href="descriptive-statistics-for-survey-data.html">Descriptive Statistics for Survey Data</a></li>
+<li><a class="" href="reliability-validity-assessment.html">Reliability &amp; Validity Assessment</a></li>
+<li><a class="" href="interpreting-survey-results.html">Interpreting Survey Results</a></li>
+</ul>
+
+        <div class="book-extra" style="display:none;">
+          <p><a id="book-repo" href="https://github.com/brettmrice/Survey-Research/blob">View book source <i class="fab fa-github"></i></a></p>
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="data-cleaning-validation" class="section level1 unnumbered">
+<h1>Data Cleaning &amp; Validation<a class="anchor" aria-label="anchor" href="#data-cleaning-validation"><i class="fas fa-link"></i></a>
+</h1>
+<p>Once survey data is collected and compiled, it exists in a raw state. This raw data is rarely, if ever, ready for immediate analysis. It often contains errors, gaps, and contradictions that can severely bias results and lead to incorrect conclusions. The process of transforming this raw data into a high-quality, reliable dataset is known as data cleaning and validation. This is a meticulous and often iterative step, but it is a non-negotiable prerequisite for sound research. The goal is not to manipulate the data to fit a hypothesis, but to ensure it is an accurate and consistent representation of the responses received. This process primarily involves identifying and handling missing data, outliers, and inconsistencies</p>
+<div id="identifying-and-handling-missing-data" class="section level2 unnumbered">
+<h2>
+<strong>Identifying and Handling Missing Data</strong><a class="anchor" aria-label="anchor" href="#identifying-and-handling-missing-data"><i class="fas fa-link"></i></a>
+</h2>
+<p>Missing data occurs when a respondent fails to provide an answer for one or more questions. This can happen for various reasons, such as a refusal to answer a sensitive question, accidentally skipping a question, or technical errors during data entry. How you handle missing data depends heavily on why it is missing</p>
+<ul>
+<li>
+<strong>Missing Completely at Random (MCAR):</strong> The absence of data is unrelated to any other variable or the value of the missing item itself. For instance, if a server glitch caused a few random responses to be lost. This is the least problematic scenario</li>
+<li>
+<strong>Missing at Random (MAR):</strong> The probability of a value being missing is related to another observed variable in the dataset, but not the missing value itself. For example, men might be less likely to answer questions about emotional vulnerability, but their propensity to answer is not related to their actual level of vulnerability, only their gender (which is observed)</li>
+<li>
+<strong>Missing Not at Random (MNAR):</strong> The reason for the missingness is related to the value that would have been provided. For example, individuals with very high incomes are often less likely to report their income. This is the most difficult type of missing data to handle, as it introduces systematic bias</li>
+</ul>
+<p>Common strategies for handling missing data include:</p>
+<ul>
+<li>
+<strong>Listwise or Casewise Deletion:</strong> This involves removing any respondent (case) with a missing value on any of the variables being analyzed. While simple, this approach can significantly reduce sample size and statistical power. It is only considered safe if the data is MCAR; otherwise, it can introduce substantial bias</li>
+<li>
+<strong>Imputation:</strong> This is the process of replacing missing values with plausible estimates. Simple methods like mean, median, or mode imputation are easy to implement but can distort the data’s variance and its relationships with other variables. More sophisticated techniques, such as regression imputation (predicting the missing value based on other variables) or multiple imputation (creating several complete datasets with different plausible values and pooling the results), are generally preferred as they better preserve the underlying structure and uncertainty of the data</li>
+</ul>
+</div>
+<div id="identifying-and-handling-outliers" class="section level2 unnumbered">
+<h2>
+<strong>Identifying and Handling Outliers</strong><a class="anchor" aria-label="anchor" href="#identifying-and-handling-outliers"><i class="fas fa-link"></i></a>
+</h2>
+<p>Outliers are data points that are exceptionally distant from the majority of other observations. They can be legitimate but extreme values (e.g., a billionaire in an income survey) or they can be errors (e.g., a respondent’s age entered as 220 instead of 22). It is critical to investigate outliers before deciding how to treat them. Visual inspection using tools like box plots and scatter plots is an effective first step. Statistical methods, such as calculating Z-scores or using the interquartile range (IQR) to define acceptable limits, provide more formal rules for identification</p>
+<p>When an outlier is identified, several actions can be considered:</p>
+<ul>
+<li>
+<strong>Correction:</strong> If the outlier is a clear data entry error, it should be corrected by referencing the original survey form or data source</li>
+<li>
+<strong>Deletion:</strong> Removing an outlier is a drastic step and should only be taken if there is strong evidence that the data point is an error and is not a true, albeit extreme, representation of the population. Deleting legitimate outliers can misrepresent the full range of possibilities in your sample</li>
+<li>
+<strong>Transformation:</strong> Applying a mathematical function (e.g., a logarithmic or square root transformation) can pull extreme values closer to the center of the distribution, reducing their influence on statistical analyses, particularly those that assume normality</li>
+<li>
+<strong>Winsorizing:</strong> This involves capping extreme values by replacing them with the highest or lowest value within an acceptable range. For example, all values above the 99th percentile might be set equal to the value at the 99th percentile</li>
+</ul>
+</div>
+<div id="identifying-and-handling-inconsistencies" class="section level2 unnumbered">
+<h2>
+<strong>Identifying and Handling Inconsistencies</strong><a class="anchor" aria-label="anchor" href="#identifying-and-handling-inconsistencies"><i class="fas fa-link"></i></a>
+</h2>
+<p>Inconsistencies are logical contradictions within a single respondent’s set of answers. They undermine the credibility of the data and must be resolved. These are often discovered through logic checks, which are programmed rules that scan the data for impossible or highly improbable combinations</p>
+<p>Examples of inconsistencies include:</p>
+<ul>
+<li>A respondent who indicates they are 12 years old but also reports having a doctoral degree</li>
+<li>A respondent who selects “Male” for gender but then reports having given birth to three children</li>
+<li>A respondent who answers “No” to the filter question “Do you own a car?” but then proceeds to answer follow-up questions about the make and model of their car</li>
+</ul>
+<p>Handling inconsistencies requires careful judgment. The first step should always be to check for data entry errors. If no error is found, the researcher must decide how to proceed. It may be possible to infer the correct answer (e.g., the answer to the filter question was likely “Yes” in the car example). However, when a logical resolution is not possible, the most conservative approach is to set the conflicting values to “missing.” This acknowledges that the data is unreliable for that specific item or set of items without discarding the respondent’s entire survey. Every decision made during the cleaning and validation phase should be meticulously documented in a process known as “data-logging” or creating a “codebook,” ensuring the transparency and replicability of the research</p>
+
+</div>
+</div>
+<!-- Scoll to TOC element -->
+<script defer>
+  // adjust TOC scroll to selected element/topic
+  function scroll_to_element() {
+    header_height = document.getElementsByTagName('header')[0].offsetHeight/2;
+    toc_element_position = document.querySelector('.book-toc > li > a.active').offsetTop;
+    if(document.querySelector('.book-toc > li > a.active').offsetLeft == 0) {
+      toc_element_position1 = document.querySelector('.book-toc > li > a.active').offsetParent.offsetTop;
+      toc_element_position2 = document.querySelector('.book-toc > li > a.active').offsetParent.offsetHeight;
+      toc_element_position = toc_element_position1 + toc_element_position2;
+    }
+    document.getElementsByTagName('header')[0].scrollTo(0, toc_element_position - header_height, 'smooth');
+  }
+  window.onload = scroll_to_element();
+
+  // hide those labes that take up multiple lines
+  sections = [];
+  topics = [];
+  function hide_label() {
+    // sections
+    document
+      .querySelectorAll('.book-toc > li')
+      .forEach(elem => {
+        window
+          .getComputedStyle(elem)
+          .textTransform === "uppercase"
+          &&
+          elem.classList
+          .contains('book-part')
+          ? sections.push(elem)
+          : '';
+      });
+
+    // topics
+    document
+      .querySelectorAll('.book-toc > li')
+      .forEach(elem => {
+        window
+          .getComputedStyle(elem)
+          .textTransform === "uppercase"
+          &&
+          !elem.classList
+          .contains('book-part')
+          ? topics.push(elem)
+          : '';
+      });
+  }
+  hide_label();
+  head = document.getElementsByTagName('header')[0];
+  head.addEventListener('scroll', () => {
+    // sections
+    count_sections = 0;
+    prev_sections_elem = '';
+    sections
+      .forEach((elem) => {
+      if(count_sections === 0) {
+        initial_y = elem.getBoundingClientRect().y + 20;
+        count_sections = 1;
+      } else {
+        if(elem.getBoundingClientRect().y < initial_y) {
+          prev_sections_elem.classList.add('hide_label');
+        } else {
+          prev_sections_elem.classList.remove('hide_label');
+        }
+      }
+      prev_sections_elem = elem;
+    });
+    // topics
+    count_topics = 0;
+    prev_topic_elem = '';
+    topics
+      .forEach((elem) => {
+      if(count_topics === 0) {
+        initial_y = elem.getBoundingClientRect().y + 20;
+        count_topics = 1;
+      } else {
+        if(elem.getBoundingClientRect().y < initial_y) {
+          prev_topic_elem.classList.add('hide_label');
+        } else {
+          prev_topic_elem.classList.remove('hide_label');
+        }
+      }
+      prev_topic_elem = elem;
+    });
+  });
+</script><div class="chapter-nav">
+<div class="prev"><a href="data-entry-coding.html">Data Entry &amp; Coding</a></div>
+<div class="next"><a href="survey-error-bias.html">Survey Error &amp; Bias</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#data-cleaning-validation">Data Cleaning &amp; Validation</a></li>
+<li><a class="nav-link" href="#identifying-and-handling-missing-data">Identifying and Handling Missing Data</a></li>
+<li><a class="nav-link" href="#identifying-and-handling-outliers">Identifying and Handling Outliers</a></li>
+<li><a class="nav-link" href="#identifying-and-handling-inconsistencies">Identifying and Handling Inconsistencies</a></li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+<li><a id="book-source" href="https://github.com/brettmrice/Survey-Research/blob/blob/main/Rmd/04-02.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/brettmrice/Survey-Research/blob/edit/main/Rmd/04-02.Rmd" target="_blank">Edit this page <i class="fab fa-github"></i></a></li>
+          <li><a id="buymeacoffee" href="https://buymeacoffee.com/bloodcellid" target="_blank">NEED Caffeine</a></li>
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+
+</body>
+</html>

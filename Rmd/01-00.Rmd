@@ -1,0 +1,20 @@
+# (PART\*) Foundations {-}
+
+# Start Here {-}
+
+Foundations of Survey Research is the systematic process of gathering data from a sample to make inferences about a larger population. It rests on two pillars: developing a sound sampling strategy to select a representative group, and creating a well-designed questionnaire to ensure the data collected is accurate and unbiased
+
+## Learning Objectives {-}
+
+*  **Define the Scope of Survey Research:** Define survey research as a systematic method and identify the conditions under which it is an appropriate methodology, particularly for describing populations, measuring subjective states, and identifying correlations
+*  **Evaluate Strengths and Limitations:** Analyze the key strengths of survey research (efficiency, generalizability, versatility) and its limitations (challenges with causality, reliance on self-report, inflexibility)
+*  **Differentiate Survey Types by Time:** Distinguish between cross-sectional (snapshot) and longitudinal (over time) survey designs, and describe the three main types of longitudinal studies: trend, cohort, and panel
+*  **Outline the Research Process:** Identify and describe the major stages of the survey research process, from initial conceptualization and planning to data collection, analysis, and final reporting
+*  **Develop Foundational Research Questions:** Explain the process of translating a broad topic into a specific, measurable, and answerable research question, and formulate a corresponding testable hypothesis (null and alternative)
+
+<div class="section level2 unnumbered">
+  <h2 class="no-stick"><strong>Audio Overview</strong></h2>
+  <center>
+    <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.podcasts.apple.com/us/podcast/sr-foundations/id1780125002?i=1000718486853"></iframe>
+  </center>
+</div>

@@ -1,0 +1,31 @@
+# Probability Sampling Techniques {-}
+
+Probability sampling is the gold standard in survey research because it is built on the principles of random selection, where every unit in the target population has a known, non-zero probability of being included in the sample. This characteristic is crucial as it reduces the risk of selection bias and allows researchers to make statistical inferences about the entire population based on the sample data. The ability to generalize findings from the sample to the broader population is the primary advantage of this approach. Choosing the right probability sampling technique depends on the research objectives, available resources, and the nature of the population itself
+
+## **Simple Random Sampling** {-}
+
+This is the most straightforward probability sampling method. In a simple random sample (SRS), every member of the population has an equal and independent chance of being selected. Conceptually, it is like drawing names from a hat. To conduct an SRS, a researcher must first have a complete list of every individual in the population, known as a sampling frame. From this list, individuals are selected entirely at random, typically using a random number generator
+
+* **Strengths:** When executed properly, SRS is highly representative of the population, making it the benchmark against which other methods are measured. It is easy to understand, and the statistical analysis is relatively simple
+* **Weaknesses:** The primary challenge is obtaining a complete and accurate sampling frame, which is often impractical or impossible for large populations. The method can also be costly and time-consuming. By chance, it might not adequately capture smaller, distinct subgroups within the population
+
+## **Systematic Sampling** {-}
+
+Systematic sampling offers a more structured, yet still random, alternative to SRS. It involves selecting sample members from a list at a regular interval. To begin, a researcher calculates a sampling interval (k) by dividing the population size (N) by the desired sample size (n). A random starting point is then chosen from within the first k individuals on the list, and every kth individual is selected thereafter. For example, to select 100 people from a list of 1,000, the interval would be 10, and the researcher might randomly start at person \#7 and then select person \#17, \#27, \#37, and so on
+
+* **Strengths:** It is often easier and faster to implement than SRS, especially with physical lists, and typically yields results of comparable quality
+* **Weaknesses:** The technique is susceptible to periodicity bias. If the sampling frame has a hidden, cyclical pattern that aligns with the sampling interval, the resulting sample may be biased. For example, if a list of apartments is ordered by floor and unit number (101, 102...201, 202...), selecting every 10th unit could result in a sample of only corner apartments
+
+## **Stratified Sampling** {-}
+
+Stratified sampling is used when a population consists of distinct subgroups (strata) that are of interest to the researcher. The method involves dividing the population into these non-overlapping, homogeneous subgroups and then drawing a separate random sample (either simple random or systematic) from each stratum. The key is that individuals are sampled from *every* stratum. This can be done proportionally, where the sample size from each stratum reflects its proportion in the total population, or disproportionally, where smaller subgroups are intentionally oversampled to ensure a sufficient number of cases for analysis
+
+* **Strengths:** It guarantees the representation of all specified subgroups, which is particularly useful for making comparisons between them. It can also increase statistical precision and reduce sampling error for the same sample size compared to SRS
+* **Weaknesses:** It requires prior knowledge of the population’s characteristics to create the strata. The process is more complex to design and can be more expensive to implement than SRS
+
+## **Cluster Sampling** {-}
+
+Cluster sampling is an effective technique when a population is geographically dispersed or when a sampling frame of individuals is not available. In this method, the population is divided into groups, or clusters (e.g., cities, schools, neighborhoods). A random sample of these clusters is then selected, and *all* individuals within the chosen clusters are included in the survey. This is known as single-stage cluster sampling. In a more complex variation called multistage sampling, the process continues through several stages—for example, randomly selecting clusters (like cities), then randomly selecting smaller units within those clusters (like city blocks), and finally randomly selecting households within those blocks
+
+* **Strengths:** This method is highly practical and cost-effective, significantly reducing travel and administrative burdens. It does not require a sampling frame of the entire population, only of the clusters themselves
+* **Weaknesses:** Cluster sampling typically has a higher sampling error than SRS or stratified sampling. This is because individuals within a cluster tend to be more similar to one another than to individuals in other clusters, which can reduce the variability and representativeness of the final sample. The resulting data analysis is also more complex

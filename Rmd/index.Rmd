@@ -1,0 +1,52 @@
+---
+title: "SR"
+author: "Brett M. Rice"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::bs4_book
+documentclass: book
+description: |
+  Survey Research in the context of Medical Laboratory Science
+---
+
+# **About** {-}
+
+This module provides Medical Laboratory Science students with a comprehensive understanding of survey research methodologies, from conceptualization to advanced analytical techniques. Students will learn the theoretical underpinnings of survey design, practical considerations for implementation, and ethical responsibilities. The module emphasizes critical evaluation of existing surveys and the development of skills necessary to design and conduct rigorous, publishable survey research
+
+Content covered includes:
+
+* [Foundations of Survey Research](learning-objectives-1.html)
+* [Survey Instrument Design](learning-objectives-2.html)
+* [Sampling Strategies & Data Collection](learning-objectives-3.html)
+* [Data Management, Quality, & Ethics](learning-objectives-4.html)
+* [Basic Data Analysis](learning-objectives-5.html)
+
+This module is designed to be highly interactive and practical, equipping graduate students with the foundational knowledge and skills to confidently design, implement, and critically evaluate survey research
+
+## **Learning Objectives** {-}
+
+Upon successful completion of this module, students will be able to:
+
+* Critically evaluate the strengths and weaknesses of survey research as a methodological approach for various research questions
+* Formulate clear and measurable research questions suitable for survey investigation
+* Design a robust survey instrument, including appropriate question types, scales, and formatting
+* Understand and apply various sampling techniques, considering their implications for generalizability and statistical power
+* Identify and mitigate potential sources of bias and error in survey research
+* Select and justify appropriate methods for survey administration (e.g., online, mail, interview)
+* Demonstrate basic proficiency in preparing survey data for analysis
+* Understand fundamental statistical concepts relevant to survey data analysis (e.g., descriptive statistics, reliability, validity)
+* Recognize ethical considerations in survey research and ensure compliance with relevant guidelines
+* Develop a preliminary proposal for a survey research project
+
+## **Pedagogical Approach** {-}
+
+This online Survey Research module employs a dynamic pedagogical approach, combining website-delivered content for comprehensive explanations with engaging audio podcasts to enhance knowledge intake through supplementary insights and real-world examples. To ensure effective learning and retention, interactive quizzes are strategically integrated, providing immediate feedback and reinforcing key concepts throughout the module. This multi-modal approach creates a flexible, accessible, and highly effective learning environment for understanding survey research
+
+## **Target Audience** {-}
+
+Graduate students from various disciplines (e.g., social sciences, health sciences, public policy, education) who anticipate using survey research in their thesis, dissertation, or professional work. No prior advanced statistical knowledge is strictly required, but familiarity with basic research methods is beneficial
+
+
+## **Last Updated** {-}
+
+Last edit pushed to this site was on <span id="last_updated">`r Sys.Date()`</span>

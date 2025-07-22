@@ -1,0 +1,20 @@
+# (PART\*) Sampling Strategies & Data Collection {-}
+
+# Start Here
+
+Sampling Strategies and Data Collection is a core component of research that outlines how to select a representative group from a larger population and the methods used to gather information from them
+
+## Learning Objectives {-}
+
+*  **Explain Core Sampling Concepts:** Explain the fundamental concepts of sampling, including the distinction between a population and a sample, and the primary goal of selecting a representative sample to allow for generalization
+*  **Describe Probability Sampling Techniques:** Describe the major probability sampling techniques (Simple Random, Systematic, Stratified, Cluster) and explain why their use of random selection is the gold standard for making statistical inferences about a population
+*  **Describe Non-Probability Sampling Techniques:** Describe the major non-probability sampling techniques (Convenience, Purposive, Quota, Snowball) and identify the specific research situations where these methods are most appropriate, despite their limitations for generalizability
+*  **Identify Factors for Determining Sample Size:** Identify the key factors that influence sample size determination, including practical constraints (budget, time) and statistical concepts (power, effect size, variability)
+*  **Evaluate Modes of Survey Administration:** Evaluate the primary modes of survey administration (online, mail, telephone, face-to-face), comparing their respective strengths and weaknesses regarding cost, speed, coverage, and potential for bias
+
+<div class="section level2 unnumbered">
+  <h2 class="no-stick"><strong>Audio Overview</strong></h2>
+  <center>
+    <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.podcasts.apple.com/us/podcast/sr-sampling-strategies-data-collection/id1780125002?i=1000718486852"></iframe>
+  </center>
+</div>

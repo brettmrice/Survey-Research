@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Survey Error &amp; Bias | SR</title>
+<meta name="author" content="Brett M. Rice">
+<meta name="description" content="At the heart of survey quality lies the concept of Total Survey Error, which represents the difference between a survey’s estimate and the true value of the parameter in the target population....">
+<meta name="generator" content="bookdown 0.43 with bs4_book()">
+<meta property="og:title" content="Survey Error &amp; Bias | SR">
+<meta property="og:type" content="book">
+<meta property="og:description" content="At the heart of survey quality lies the concept of Total Survey Error, which represents the difference between a survey’s estimate and the true value of the parameter in the target population....">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Survey Error &amp; Bias | SR">
+<meta name="twitter:description" content="At the heart of survey quality lies the concept of Total Survey Error, which represents the difference between a survey’s estimate and the true value of the parameter in the target population....">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.9.0/transition.js"></script><script src="libs/bs3compat-0.9.0/tabs.js"></script><script src="libs/bs3compat-0.9.0/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><link rel="icon" type="image/png" href="imgs/favicon.png">
+<meta name="google-adsense-account" content="ca-pub-1344282930858290">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JERRQQFPF4"></script><script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-JERRQQFPF4');
+    </script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
+    
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">Survey Research</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">About</a></li>
+<li><a class="" href="author.html">Author</a></li>
+<li class="book-part">Foundations</li>
+<li><a class="" href="start-here.html">Start Here</a></li>
+<li><a class="" href="introduction-to-survey-research.html">Introduction to Survey Research</a></li>
+<li><a class="" href="strengths-limitations.html">Strengths &amp; Limitations</a></li>
+<li><a class="" href="types-of-surveys.html">Types of Surveys</a></li>
+<li><a class="" href="survey-research-process.html">Survey Research Process</a></li>
+<li><a class="" href="developing-research-questions-hypotheses.html">Developing Research Questions &amp; Hypotheses</a></li>
+<li><a class="" href="conceptualization-operationalization.html">Conceptualization &amp; Operationalization</a></li>
+<li class="book-part">Instrument Design</li>
+<li><a class="" href="start-here-1.html">Start Here</a></li>
+<li><a class="" href="questionnaire-construction-principles.html">Questionnaire Construction Principles</a></li>
+<li><a class="" href="types-of-questions.html">Types of Questions</a></li>
+<li><a class="" href="designing-scales.html">Designing Scales</a></li>
+<li><a class="" href="questionnaire-flow-formatting.html">Questionnaire Flow &amp; Formatting</a></li>
+<li><a class="" href="pre-testing-piloting.html">Pre-Testing &amp; Piloting</a></li>
+<li class="book-part">Sampling Strategies &amp; Data Collection</li>
+<li><a class="" href="start-here-2.html"><span class="header-section-number">1</span> Start Here</a></li>
+<li><a class="" href="introduction-to-sampling.html">Introduction to Sampling</a></li>
+<li><a class="" href="probability-sampling-techniques.html">Probability Sampling Techniques</a></li>
+<li><a class="" href="non-probability-sampling-techniques.html">Non-Probability Sampling Techniques</a></li>
+<li><a class="" href="determining-sample-size.html">Determining Sample Size</a></li>
+<li><a class="" href="modes-of-survey-administration.html">Modes of Survey Administration</a></li>
+<li class="book-part">Data Management, Quality, &amp; Ethics</li>
+<li><a class="" href="start-here-3.html"><span class="header-section-number">2</span> Start Here</a></li>
+<li><a class="" href="data-entry-coding.html">Data Entry &amp; Coding</a></li>
+<li><a class="" href="data-cleaning-validation.html">Data Cleaning &amp; Validation</a></li>
+<li><a class="active" href="survey-error-bias.html">Survey Error &amp; Bias</a></li>
+<li><a class="" href="ethical-considerations.html">Ethical Considerations</a></li>
+<li class="book-part">Basic Data Analysis</li>
+<li><a class="" href="start-here-4.html">Start Here</a></li>
+<li><a class="" href="descriptive-statistics-for-survey-data.html">Descriptive Statistics for Survey Data</a></li>
+<li><a class="" href="reliability-validity-assessment.html">Reliability &amp; Validity Assessment</a></li>
+<li><a class="" href="interpreting-survey-results.html">Interpreting Survey Results</a></li>
+</ul>
+
+        <div class="book-extra" style="display:none;">
+          <p><a id="book-repo" href="https://github.com/brettmrice/Survey-Research/blob">View book source <i class="fab fa-github"></i></a></p>
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="survey-error-bias" class="section level1 unnumbered">
+<h1>Survey Error &amp; Bias<a class="anchor" aria-label="anchor" href="#survey-error-bias"><i class="fas fa-link"></i></a>
+</h1>
+<p>At the heart of survey quality lies the concept of <strong>Total Survey Error</strong>, which represents the difference between a survey’s estimate and the true value of the parameter in the target population. Achieving a perfect, error-free survey is impossible; therefore, the goal of a diligent researcher is not to eliminate all error, but to understand its potential sources, minimize them wherever possible, and be transparent about the remaining limitations. These errors can be broadly categorized into errors of non-observation (when we fail to collect data from parts of our target population) and errors of observation (when the data we collect is inaccurate)</p>
+<div id="sampling-error" class="section level2 unnumbered">
+<h2>
+<strong>Sampling Error</strong><a class="anchor" aria-label="anchor" href="#sampling-error"><i class="fas fa-link"></i></a>
+</h2>
+<p>Sampling error is the most commonly understood type of survey error. It is the inherent degree of uncertainty that arises simply because data is collected from a sample rather than the entire population. By chance alone, any given sample may not perfectly reflect the population it was drawn from. For example, a random sample of 1,000 voters might show 52% support for a candidate, while the true support among all voters is 51%. This difference is due to sampling variability. While it cannot be eliminated, it is the only type of survey error that can be mathematically estimated, typically expressed as the <strong>margin of error</strong></p>
+<p><strong>Strategies for Minimization</strong></p>
+<ul>
+<li>
+<strong>Increase the Sample Size:</strong> The most direct way to reduce sampling error is to increase the number of respondents. Larger samples provide more stable estimates and smaller margins of error</li>
+<li>
+<strong>Use Efficient Sampling Designs:</strong> Methods like stratified sampling, which ensures that key subgroups of the population are proportionally represented in the sample, can reduce sampling error for a given sample size compared to simple random sampling</li>
+</ul>
+</div>
+<div id="coverage-error" class="section level2 unnumbered">
+<h2>
+<strong>Coverage Error</strong><a class="anchor" aria-label="anchor" href="#coverage-error"><i class="fas fa-link"></i></a>
+</h2>
+<p>Coverage error occurs when the list or framework from which a sample is drawn—the <strong>sampling frame</strong>—does not accurately represent the target population. This leads to a systematic bias because some segments of the population have a zero or reduced chance of being selected. For instance, using a telephone directory as a sampling frame to survey all adults in a city would systematically exclude those with unlisted numbers, those who only use mobile phones, and households without any phone service. These excluded groups may differ significantly from the included groups, biasing the results</p>
+<p>Strategies for Minimization:</p>
+<ul>
+<li>
+<strong>Use Multiple and Up-to-Date Sampling Frames:</strong> Combining several frames, such as landline and mobile phone lists or address-based and email lists, can improve coverage. It is crucial to use the most current frames available</li>
+<li>
+<strong>Identify and Correct for Gaps:</strong> Before launching the survey, carefully evaluate the sampling frame against the known characteristics of the target population</li>
+<li>
+<strong>Statistical Adjustment:</strong> After data collection, weighting the sample data to match known population totals (e.g., from census data) can help correct for some coverage deficiencies</li>
+</ul>
+</div>
+<div id="non-response-bias" class="section level2 unnumbered">
+<h2>
+<strong>Non-response Bias</strong><a class="anchor" aria-label="anchor" href="#non-response-bias"><i class="fas fa-link"></i></a>
+</h2>
+<p>Non-response bias is a critical challenge that occurs when the people who do not respond to a survey are systematically different from those who do. The problem is not simply a smaller sample size; it’s that the resulting pool of respondents is no longer representative of the target population. For example, in a survey about workplace satisfaction, employees who are extremely unhappy or extremely happy might be more motivated to respond than those who are moderately content. The resulting data would overrepresent extreme views and provide a skewed picture of overall satisfaction</p>
+<p>Strategies for Minimization:</p>
+<ul>
+<li>
+<strong>Design and Piloting:</strong> Create a well-designed, engaging, and concise survey that is easy for respondents to complete, reducing respondent burden</li>
+<li>
+<strong>Multiple Contact Attempts and Modes:</strong> Use reminders and follow-ups through various channels (email, text message, phone call) to encourage participation from initial non-respondents</li>
+<li>
+<strong>Offer Incentives:</strong> Providing a small, appropriate incentive can boost response rates, though care must be taken that the incentive itself does not bias the sample</li>
+<li>
+<strong>Transparency in Reporting:</strong> Always report the response rate and discuss the potential for non-response bias when presenting findings. When possible, researchers can compare the demographic characteristics of respondents to the target population to assess the magnitude of potential bias</li>
+</ul>
+</div>
+<div id="measurement-error" class="section level2 unnumbered">
+<h2>
+<strong>Measurement Error</strong><a class="anchor" aria-label="anchor" href="#measurement-error"><i class="fas fa-link"></i></a>
+</h2>
+<p>Measurement error occurs when the value recorded in the survey is different from the respondent’s true value. This error arises from the data collection process itself and can be introduced by the survey instrument, the interviewer, or the respondent. Unlike the previous errors, measurement error is about the accuracy of the answers given</p>
+<p>Common sources of measurement error include:</p>
+<ul>
+<li>
+<strong>Poorly Worded Questions:</strong> Leading, ambiguous, complex, or double-barreled questions can confuse respondents and result in inaccurate answers. For example, asking “Don’t you agree that the proposed tax increase is unfair?” encourages agreement</li>
+<li>
+<strong>Respondent Factors:</strong> Respondents may not recall information accurately (recall error), may misunderstand a question, or may provide socially desirable answers to present themselves in a favorable light (social desirability bias)</li>
+<li>
+<strong>Interviewer Effects:</strong> The way an interviewer asks a question, their tone of voice, or their demographic characteristics can unintentionally influence a respondent’s answers</li>
+<li>
+<strong>Survey Mode Effects:</strong> The medium used for the survey (e.g., online, telephone, in-person) can impact responses. Sensitive topics, for instance, often yield more honest answers in anonymous online surveys than in face-to-face interviews</li>
+</ul>
+<p>Strategies for Minimization:</p>
+<ul>
+<li>
+<strong>Thorough Pre-testing:</strong> Pilot testing the survey questionnaire with a small sample from the target population is the single most effective way to identify and fix problematic questions</li>
+<li>
+<strong>Clear and Neutral Wording:</strong> Use simple, direct, and neutral language. Ensure questions ask about only one concept at a time</li>
+<li>
+<strong>Standardized Interviewer Training:</strong> Train interviewers to follow the survey script precisely and maintain a neutral demeanor with all respondents</li>
+<li>
+<strong>Ensure Confidentiality and Anonymity:</strong> Reassuring respondents that their individual answers will be kept confidential can reduce social desirability bias and encourage more truthful responses</li>
+</ul>
+</div>
+</div>
+<!-- Scoll to TOC element -->
+<script defer>
+  // adjust TOC scroll to selected element/topic
+  function scroll_to_element() {
+    header_height = document.getElementsByTagName('header')[0].offsetHeight/2;
+    toc_element_position = document.querySelector('.book-toc > li > a.active').offsetTop;
+    if(document.querySelector('.book-toc > li > a.active').offsetLeft == 0) {
+      toc_element_position1 = document.querySelector('.book-toc > li > a.active').offsetParent.offsetTop;
+      toc_element_position2 = document.querySelector('.book-toc > li > a.active').offsetParent.offsetHeight;
+      toc_element_position = toc_element_position1 + toc_element_position2;
+    }
+    document.getElementsByTagName('header')[0].scrollTo(0, toc_element_position - header_height, 'smooth');
+  }
+  window.onload = scroll_to_element();
+
+  // hide those labes that take up multiple lines
+  sections = [];
+  topics = [];
+  function hide_label() {
+    // sections
+    document
+      .querySelectorAll('.book-toc > li')
+      .forEach(elem => {
+        window
+          .getComputedStyle(elem)
+          .textTransform === "uppercase"
+          &&
+          elem.classList
+          .contains('book-part')
+          ? sections.push(elem)
+          : '';
+      });
+
+    // topics
+    document
+      .querySelectorAll('.book-toc > li')
+      .forEach(elem => {
+        window
+          .getComputedStyle(elem)
+          .textTransform === "uppercase"
+          &&
+          !elem.classList
+          .contains('book-part')
+          ? topics.push(elem)
+          : '';
+      });
+  }
+  hide_label();
+  head = document.getElementsByTagName('header')[0];
+  head.addEventListener('scroll', () => {
+    // sections
+    count_sections = 0;
+    prev_sections_elem = '';
+    sections
+      .forEach((elem) => {
+      if(count_sections === 0) {
+        initial_y = elem.getBoundingClientRect().y + 20;
+        count_sections = 1;
+      } else {
+        if(elem.getBoundingClientRect().y < initial_y) {
+          prev_sections_elem.classList.add('hide_label');
+        } else {
+          prev_sections_elem.classList.remove('hide_label');
+        }
+      }
+      prev_sections_elem = elem;
+    });
+    // topics
+    count_topics = 0;
+    prev_topic_elem = '';
+    topics
+      .forEach((elem) => {
+      if(count_topics === 0) {
+        initial_y = elem.getBoundingClientRect().y + 20;
+        count_topics = 1;
+      } else {
+        if(elem.getBoundingClientRect().y < initial_y) {
+          prev_topic_elem.classList.add('hide_label');
+        } else {
+          prev_topic_elem.classList.remove('hide_label');
+        }
+      }
+      prev_topic_elem = elem;
+    });
+  });
+</script><div class="chapter-nav">
+<div class="prev"><a href="data-cleaning-validation.html">Data Cleaning &amp; Validation</a></div>
+<div class="next"><a href="ethical-considerations.html">Ethical Considerations</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#survey-error-bias">Survey Error &amp; Bias</a></li>
+<li><a class="nav-link" href="#sampling-error">Sampling Error</a></li>
+<li><a class="nav-link" href="#coverage-error">Coverage Error</a></li>
+<li><a class="nav-link" href="#non-response-bias">Non-response Bias</a></li>
+<li><a class="nav-link" href="#measurement-error">Measurement Error</a></li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+<li><a id="book-source" href="https://github.com/brettmrice/Survey-Research/blob/blob/main/Rmd/04-03.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/brettmrice/Survey-Research/blob/edit/main/Rmd/04-03.Rmd" target="_blank">Edit this page <i class="fab fa-github"></i></a></li>
+          <li><a id="buymeacoffee" href="https://buymeacoffee.com/bloodcellid" target="_blank">NEED Caffeine</a></li>
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+
+</body>
+</html>

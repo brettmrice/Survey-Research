@@ -1,0 +1,31 @@
+# Data Entry & Coding {-}
+
+The transition from raw survey responses—whether on paper, in audio files, or as digital form submissions—to a structured, analyzable dataset is managed through the critical processes of data entry and coding. This stage is often underestimated in its complexity and importance. It is here that costly, and sometimes irreversible, errors can be introduced, undermining the integrity of the entire research project. Diligence, standardization, and careful documentation during this phase are paramount for ensuring data quality
+
+Data entry is the process of transcribing respondent answers into a digital format, typically a spreadsheet or a statistical software file (like SPSS, R, or Stata). While the proliferation of web-based surveys (CAWI), computer-assisted telephone interviewing (CATI), and computer-assisted personal interviewing (CAPI) has automated much of this process and significantly reduced transcription errors, manual data entry from paper questionnaires remains a common practice. When manual entry is necessary, a systematic approach is essential. Best practices include:
+
+* **Using a Unique Identifier:** Every physical survey should be assigned a unique ID number that is also the first variable in the data file. This allows researchers to easily trace a digital record back to its source document to resolve any ambiguities or errors
+* **Double-Entry Verification:** The gold standard for manual entry involves having two individuals independently enter the same batch of surveys into separate files. The two files are then compared using software to identify discrepancies, which are then resolved by checking the original survey. While resource-intensive, this method dramatically reduces keystroke errors
+* **Data Validation Rules:** Modern spreadsheet and statistical programs allow you to set validation rules for data entry cells. For instance, if a question uses a 1-to-5 scale, a rule can be set to prevent the entry of any number outside that range. This provides an immediate, real-time check on data accuracy
+
+Coding is the process of assigning numerical or alphanumeric codes to survey responses. This is necessary because statistical analysis relies on numerical values. For closed-ended questions, this process is often straightforward and happens during the questionnaire design phase—a practice known as pre-coding. For example, a "Yes" response is pre-coded as "1" and a "No" as "2"
+
+The real challenge lies in coding open-ended questions, where respondents provide free-text answers. This requires a process of post-coding, where the researcher develops a set of categories—a **coding frame**—after reviewing a sample of the responses. A robust coding frame should be both exhaustive, meaning every response can be classified into a category, and mutually exclusive, meaning each response fits into only one category. To ensure consistency, especially when multiple coders are involved, researchers should establish clear definitions for each code and conduct **inter-coder reliability** checks. This involves having different coders independently code the same subset of responses and then measuring the level of agreement between them
+
+A critical aspect of coding involves the careful management of missing data. It is insufficient to simply leave a cell blank. A rigorous data management plan distinguishes between different types of missingness:
+
+* **Don't Know:** The respondent explicitly stated they did not know the answer. This might be coded as 8, 88, or \-8
+* **Refused:** The respondent was asked the question but declined to answer. This might be coded as 9, 99, or \-9
+* **Not Applicable:** The question was not relevant to the respondent due to a skip pattern in the survey (e.g., asking a non-driver how often they drive to work). This is often left blank or given a specific system-missing value
+
+Assigning distinct codes for each type of missingness is crucial for accurate analysis, as it prevents these non-responses from being accidentally included in calculations as legitimate values
+
+The final output of these processes is a clean, organized data file and, just as importantly, a **codebook**. A codebook is the essential blueprint for the dataset, a central document that details the structure, contents, and layout of the data file. It provides institutional memory and ensures that other researchers (or the original researcher years later) can understand and correctly use the data. At a minimum, a codebook should contain:
+
+* **Variable Names:** The short name for each variable in the dataset (e.g., q1\_gender)
+* **Variable Labels:** A longer, more descriptive label for the variable (e.g., "Respondent's Gender")
+* **Value Labels:** The meaning behind the numerical codes (e.g., 1 \= "Female", 2 \= "Male", 3 \= "Non-binary")
+* **Missing Value Codes:** A clear explanation of what codes like 99 or \-9 represent
+* **Question Wording:** The exact wording of the survey question from which the variable was derived
+
+With a well-structured dataset and a comprehensive codebook in hand, the researcher is now prepared for the next critical step: data cleaning and validation

@@ -1,0 +1,29 @@
+# Descriptive Statistics for Survey Data {-}
+
+Once your survey data has been collected, entered, and cleaned, you are left with a raw dataset—a vast grid of numbers and labels. On its own, this raw data offers little insight. The first and most critical step in analysis is to summarize this information into a digestible and understandable format. This process is accomplished using descriptive statistics. The goal is not yet to test a hypothesis or draw conclusions about a larger population, but simply to describe the fundamental characteristics of your sample. It is the analytical equivalent of creating a clear map of your data before you begin a journey. The type of statistic you use depends entirely on the nature of your variable, which generally falls into two categories: categorical or continuous
+
+## **Describing Categorical Data** {-}
+
+Categorical data, also known as qualitative data, sorts respondents into distinct groups or categories. This includes nominal data (like gender, ethnicity, or a "yes/no" response) and ordinal data (like education level or an agreement scale from "Strongly Disagree" to "Strongly Agree"). You cannot calculate a meaningful "average" for these variables. Instead, the primary tools for describing them are frequencies and percentages
+
+### **Frequencies** {-}
+
+A frequency is the most basic summary statistic: it is a simple count of how many times each value or category appears in the data. For example, if you ask 200 people their employment status, the frequency tells you the raw number of respondents who are employed full-time, employed part-time, unemployed, or retired. Frequencies are the absolute, foundational count of your responses and are essential for understanding the basic distribution of your sample
+
+### **Percentages** {-}
+
+While frequencies are important, percentages often tell a more intuitive story. A percentage standardizes the frequency by expressing it as a proportion of the total number of respondents. Stating that 110 respondents are employed full-time is useful, but stating that 55% of your sample is employed full-time provides immediate context and makes it easier to compare across different groups or surveys. Percentages answer the question, "What proportion of my sample falls into this category?" and are arguably the most common and easily understood descriptive statistic for categorical survey data. They are almost always reported alongside the raw frequencies
+
+## **Describing Continuous Data** {-}
+
+Continuous data, or quantitative data, represents values that can be measured on a scale and have a numerical meaning. This includes variables like age, income, or the score on a satisfaction scale from 1 to 10\. For these variables, we can move beyond simple counts to describe the data's central tendency (what is a typical value?) and its dispersion (how spread out are the values?)
+
+### **Mean** {-}
+
+The mean is the arithmetic average of all the responses for a given variable. It is calculated by summing all the values and dividing by the number of responses. For a question asking for a respondent's age, the mean would give you the average age of your sample. It is an excellent measure of central tendency, providing a single number that summarizes the "center point" of the data. However, the mean can be sensitive to outliers—extremely high or low values that can pull the average in their direction. For example, in a survey of income, one billionaire respondent could dramatically inflate the mean income, making it unrepresentative of the typical respondent
+
+### **Standard Deviation** {-}
+
+The standard deviation is a measure of dispersion, or how spread out the data points are from the mean. A small standard deviation indicates that most data points are clustered tightly around the mean, suggesting high consistency among respondents. For example, if the mean satisfaction with a service is 8.5 (on a 1-10 scale) and the standard deviation is low (e.g., 0.5), it tells you that nearly everyone rated the service very highly. Conversely, a large standard deviation indicates that the data points are widely scattered. A mean satisfaction of 6 with a high standard deviation (e.g., 3.0) would suggest a very polarized set of opinions, with some people being very satisfied and others very unsatisfied. The mean tells you the center, but the standard deviation tells you how meaningful that center is. For this reason, the mean and standard deviation are nearly always reported together
+
+In summary, these four statistics—frequencies, percentages, means, and standard deviations—are the workhorses of initial survey data analysis. They transform an overwhelming dataset into a meaningful summary, allowing you to understand the profile of your respondents and the general pattern of their answers. This descriptive summary is the essential foundation upon which all further, more complex analyses are built

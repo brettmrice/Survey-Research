@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Probability Sampling Techniques | SR</title>
+<meta name="author" content="Brett M. Rice">
+<meta name="description" content="Probability sampling is the gold standard in survey research because it is built on the principles of random selection, where every unit in the target population has a known, non-zero probability...">
+<meta name="generator" content="bookdown 0.43 with bs4_book()">
+<meta property="og:title" content="Probability Sampling Techniques | SR">
+<meta property="og:type" content="book">
+<meta property="og:description" content="Probability sampling is the gold standard in survey research because it is built on the principles of random selection, where every unit in the target population has a known, non-zero probability...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Probability Sampling Techniques | SR">
+<meta name="twitter:description" content="Probability sampling is the gold standard in survey research because it is built on the principles of random selection, where every unit in the target population has a known, non-zero probability...">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.9.0/transition.js"></script><script src="libs/bs3compat-0.9.0/tabs.js"></script><script src="libs/bs3compat-0.9.0/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><link rel="icon" type="image/png" href="imgs/favicon.png">
+<meta name="google-adsense-account" content="ca-pub-1344282930858290">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JERRQQFPF4"></script><script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-JERRQQFPF4');
+    </script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
+    
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">Survey Research</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">About</a></li>
+<li><a class="" href="author.html">Author</a></li>
+<li class="book-part">Foundations</li>
+<li><a class="" href="start-here.html">Start Here</a></li>
+<li><a class="" href="introduction-to-survey-research.html">Introduction to Survey Research</a></li>
+<li><a class="" href="strengths-limitations.html">Strengths &amp; Limitations</a></li>
+<li><a class="" href="types-of-surveys.html">Types of Surveys</a></li>
+<li><a class="" href="survey-research-process.html">Survey Research Process</a></li>
+<li><a class="" href="developing-research-questions-hypotheses.html">Developing Research Questions &amp; Hypotheses</a></li>
+<li><a class="" href="conceptualization-operationalization.html">Conceptualization &amp; Operationalization</a></li>
+<li class="book-part">Instrument Design</li>
+<li><a class="" href="start-here-1.html">Start Here</a></li>
+<li><a class="" href="questionnaire-construction-principles.html">Questionnaire Construction Principles</a></li>
+<li><a class="" href="types-of-questions.html">Types of Questions</a></li>
+<li><a class="" href="designing-scales.html">Designing Scales</a></li>
+<li><a class="" href="questionnaire-flow-formatting.html">Questionnaire Flow &amp; Formatting</a></li>
+<li><a class="" href="pre-testing-piloting.html">Pre-Testing &amp; Piloting</a></li>
+<li class="book-part">Sampling Strategies &amp; Data Collection</li>
+<li><a class="" href="start-here-2.html"><span class="header-section-number">1</span> Start Here</a></li>
+<li><a class="" href="introduction-to-sampling.html">Introduction to Sampling</a></li>
+<li><a class="active" href="probability-sampling-techniques.html">Probability Sampling Techniques</a></li>
+<li><a class="" href="non-probability-sampling-techniques.html">Non-Probability Sampling Techniques</a></li>
+<li><a class="" href="determining-sample-size.html">Determining Sample Size</a></li>
+<li><a class="" href="modes-of-survey-administration.html">Modes of Survey Administration</a></li>
+<li class="book-part">Data Management, Quality, &amp; Ethics</li>
+<li><a class="" href="start-here-3.html"><span class="header-section-number">2</span> Start Here</a></li>
+<li><a class="" href="data-entry-coding.html">Data Entry &amp; Coding</a></li>
+<li><a class="" href="data-cleaning-validation.html">Data Cleaning &amp; Validation</a></li>
+<li><a class="" href="survey-error-bias.html">Survey Error &amp; Bias</a></li>
+<li><a class="" href="ethical-considerations.html">Ethical Considerations</a></li>
+<li class="book-part">Basic Data Analysis</li>
+<li><a class="" href="start-here-4.html">Start Here</a></li>
+<li><a class="" href="descriptive-statistics-for-survey-data.html">Descriptive Statistics for Survey Data</a></li>
+<li><a class="" href="reliability-validity-assessment.html">Reliability &amp; Validity Assessment</a></li>
+<li><a class="" href="interpreting-survey-results.html">Interpreting Survey Results</a></li>
+</ul>
+
+        <div class="book-extra" style="display:none;">
+          <p><a id="book-repo" href="https://github.com/brettmrice/Survey-Research/blob">View book source <i class="fab fa-github"></i></a></p>
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="probability-sampling-techniques" class="section level1 unnumbered">
+<h1>Probability Sampling Techniques<a class="anchor" aria-label="anchor" href="#probability-sampling-techniques"><i class="fas fa-link"></i></a>
+</h1>
+<p>Probability sampling is the gold standard in survey research because it is built on the principles of random selection, where every unit in the target population has a known, non-zero probability of being included in the sample. This characteristic is crucial as it reduces the risk of selection bias and allows researchers to make statistical inferences about the entire population based on the sample data. The ability to generalize findings from the sample to the broader population is the primary advantage of this approach. Choosing the right probability sampling technique depends on the research objectives, available resources, and the nature of the population itself</p>
+<div id="simple-random-sampling" class="section level2 unnumbered">
+<h2>
+<strong>Simple Random Sampling</strong><a class="anchor" aria-label="anchor" href="#simple-random-sampling"><i class="fas fa-link"></i></a>
+</h2>
+<p>This is the most straightforward probability sampling method. In a simple random sample (SRS), every member of the population has an equal and independent chance of being selected. Conceptually, it is like drawing names from a hat. To conduct an SRS, a researcher must first have a complete list of every individual in the population, known as a sampling frame. From this list, individuals are selected entirely at random, typically using a random number generator</p>
+<ul>
+<li>
+<strong>Strengths:</strong> When executed properly, SRS is highly representative of the population, making it the benchmark against which other methods are measured. It is easy to understand, and the statistical analysis is relatively simple</li>
+<li>
+<strong>Weaknesses:</strong> The primary challenge is obtaining a complete and accurate sampling frame, which is often impractical or impossible for large populations. The method can also be costly and time-consuming. By chance, it might not adequately capture smaller, distinct subgroups within the population</li>
+</ul>
+</div>
+<div id="systematic-sampling" class="section level2 unnumbered">
+<h2>
+<strong>Systematic Sampling</strong><a class="anchor" aria-label="anchor" href="#systematic-sampling"><i class="fas fa-link"></i></a>
+</h2>
+<p>Systematic sampling offers a more structured, yet still random, alternative to SRS. It involves selecting sample members from a list at a regular interval. To begin, a researcher calculates a sampling interval (k) by dividing the population size (N) by the desired sample size (n). A random starting point is then chosen from within the first k individuals on the list, and every kth individual is selected thereafter. For example, to select 100 people from a list of 1,000, the interval would be 10, and the researcher might randomly start at person #7 and then select person #17, #27, #37, and so on</p>
+<ul>
+<li>
+<strong>Strengths:</strong> It is often easier and faster to implement than SRS, especially with physical lists, and typically yields results of comparable quality</li>
+<li>
+<strong>Weaknesses:</strong> The technique is susceptible to periodicity bias. If the sampling frame has a hidden, cyclical pattern that aligns with the sampling interval, the resulting sample may be biased. For example, if a list of apartments is ordered by floor and unit number (101, 102…201, 202…), selecting every 10th unit could result in a sample of only corner apartments</li>
+</ul>
+</div>
+<div id="stratified-sampling" class="section level2 unnumbered">
+<h2>
+<strong>Stratified Sampling</strong><a class="anchor" aria-label="anchor" href="#stratified-sampling"><i class="fas fa-link"></i></a>
+</h2>
+<p>Stratified sampling is used when a population consists of distinct subgroups (strata) that are of interest to the researcher. The method involves dividing the population into these non-overlapping, homogeneous subgroups and then drawing a separate random sample (either simple random or systematic) from each stratum. The key is that individuals are sampled from <em>every</em> stratum. This can be done proportionally, where the sample size from each stratum reflects its proportion in the total population, or disproportionally, where smaller subgroups are intentionally oversampled to ensure a sufficient number of cases for analysis</p>
+<ul>
+<li>
+<strong>Strengths:</strong> It guarantees the representation of all specified subgroups, which is particularly useful for making comparisons between them. It can also increase statistical precision and reduce sampling error for the same sample size compared to SRS</li>
+<li>
+<strong>Weaknesses:</strong> It requires prior knowledge of the population’s characteristics to create the strata. The process is more complex to design and can be more expensive to implement than SRS</li>
+</ul>
+</div>
+<div id="cluster-sampling" class="section level2 unnumbered">
+<h2>
+<strong>Cluster Sampling</strong><a class="anchor" aria-label="anchor" href="#cluster-sampling"><i class="fas fa-link"></i></a>
+</h2>
+<p>Cluster sampling is an effective technique when a population is geographically dispersed or when a sampling frame of individuals is not available. In this method, the population is divided into groups, or clusters (e.g., cities, schools, neighborhoods). A random sample of these clusters is then selected, and <em>all</em> individuals within the chosen clusters are included in the survey. This is known as single-stage cluster sampling. In a more complex variation called multistage sampling, the process continues through several stages—for example, randomly selecting clusters (like cities), then randomly selecting smaller units within those clusters (like city blocks), and finally randomly selecting households within those blocks</p>
+<ul>
+<li>
+<strong>Strengths:</strong> This method is highly practical and cost-effective, significantly reducing travel and administrative burdens. It does not require a sampling frame of the entire population, only of the clusters themselves</li>
+<li>
+<strong>Weaknesses:</strong> Cluster sampling typically has a higher sampling error than SRS or stratified sampling. This is because individuals within a cluster tend to be more similar to one another than to individuals in other clusters, which can reduce the variability and representativeness of the final sample. The resulting data analysis is also more complex</li>
+</ul>
+</div>
+</div>
+<!-- Scoll to TOC element -->
+<script defer>
+  // adjust TOC scroll to selected element/topic
+  function scroll_to_element() {
+    header_height = document.getElementsByTagName('header')[0].offsetHeight/2;
+    toc_element_position = document.querySelector('.book-toc > li > a.active').offsetTop;
+    if(document.querySelector('.book-toc > li > a.active').offsetLeft == 0) {
+      toc_element_position1 = document.querySelector('.book-toc > li > a.active').offsetParent.offsetTop;
+      toc_element_position2 = document.querySelector('.book-toc > li > a.active').offsetParent.offsetHeight;
+      toc_element_position = toc_element_position1 + toc_element_position2;
+    }
+    document.getElementsByTagName('header')[0].scrollTo(0, toc_element_position - header_height, 'smooth');
+  }
+  window.onload = scroll_to_element();
+
+  // hide those labes that take up multiple lines
+  sections = [];
+  topics = [];
+  function hide_label() {
+    // sections
+    document
+      .querySelectorAll('.book-toc > li')
+      .forEach(elem => {
+        window
+          .getComputedStyle(elem)
+          .textTransform === "uppercase"
+          &&
+          elem.classList
+          .contains('book-part')
+          ? sections.push(elem)
+          : '';
+      });
+
+    // topics
+    document
+      .querySelectorAll('.book-toc > li')
+      .forEach(elem => {
+        window
+          .getComputedStyle(elem)
+          .textTransform === "uppercase"
+          &&
+          !elem.classList
+          .contains('book-part')
+          ? topics.push(elem)
+          : '';
+      });
+  }
+  hide_label();
+  head = document.getElementsByTagName('header')[0];
+  head.addEventListener('scroll', () => {
+    // sections
+    count_sections = 0;
+    prev_sections_elem = '';
+    sections
+      .forEach((elem) => {
+      if(count_sections === 0) {
+        initial_y = elem.getBoundingClientRect().y + 20;
+        count_sections = 1;
+      } else {
+        if(elem.getBoundingClientRect().y < initial_y) {
+          prev_sections_elem.classList.add('hide_label');
+        } else {
+          prev_sections_elem.classList.remove('hide_label');
+        }
+      }
+      prev_sections_elem = elem;
+    });
+    // topics
+    count_topics = 0;
+    prev_topic_elem = '';
+    topics
+      .forEach((elem) => {
+      if(count_topics === 0) {
+        initial_y = elem.getBoundingClientRect().y + 20;
+        count_topics = 1;
+      } else {
+        if(elem.getBoundingClientRect().y < initial_y) {
+          prev_topic_elem.classList.add('hide_label');
+        } else {
+          prev_topic_elem.classList.remove('hide_label');
+        }
+      }
+      prev_topic_elem = elem;
+    });
+  });
+</script><div class="chapter-nav">
+<div class="prev"><a href="introduction-to-sampling.html">Introduction to Sampling</a></div>
+<div class="next"><a href="non-probability-sampling-techniques.html">Non-Probability Sampling Techniques</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#probability-sampling-techniques">Probability Sampling Techniques</a></li>
+<li><a class="nav-link" href="#simple-random-sampling">Simple Random Sampling</a></li>
+<li><a class="nav-link" href="#systematic-sampling">Systematic Sampling</a></li>
+<li><a class="nav-link" href="#stratified-sampling">Stratified Sampling</a></li>
+<li><a class="nav-link" href="#cluster-sampling">Cluster Sampling</a></li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+<li><a id="book-source" href="https://github.com/brettmrice/Survey-Research/blob/blob/main/Rmd/03-02.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/brettmrice/Survey-Research/blob/edit/main/Rmd/03-02.Rmd" target="_blank">Edit this page <i class="fab fa-github"></i></a></li>
+          <li><a id="buymeacoffee" href="https://buymeacoffee.com/bloodcellid" target="_blank">NEED Caffeine</a></li>
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+
+</body>
+</html>

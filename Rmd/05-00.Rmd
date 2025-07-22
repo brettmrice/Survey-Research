@@ -1,0 +1,20 @@
+# (PART\*) Basic Data Analysis {-}
+
+# Start Here {-}
+
+After meticulously collecting and cleaning survey data, the next critical step is Data Analysis. This phase transforms raw numbers into understandable insights by describing the fundamental characteristics of your sample. Using descriptive statistics like frequencies, percentages, means, and standard deviations, it provides a clear overview of who responded and what their basic answers reveal, laying the essential foundation for any further, deeper statistical exploration
+
+## Learning Objectives {-}
+
+*  **Apply Appropriate Descriptive Statistics:** Apply the correct descriptive statistics to summarize survey data, using frequencies and percentages for categorical variables and means with standard deviations for continuous variables
+*  **Assess Measurement Quality:** Differentiate between reliability (the consistency of a measure) and validity (its accuracy), and identify key methods for their assessment, such as using Cronbach's Alpha for internal consistency and evaluating construct validity
+*  **Perform Deeper Analysis through Segmentation:** Explain the process of moving beyond basic descriptive statistics to uncover deeper insights by segmenting data (e.g., using cross-tabulation) to identify key patterns and compare how different respondent groups answered
+*  **Contextualize Survey Findings:** Explain the importance of interpreting data within a broader context by comparing results against the original research objectives, respondent demographics, and external benchmarks to transform raw numbers into meaningful findings
+*  **Identify Common Pitfalls in Interpretation:** Identify and avoid critical errors in data interpretation, such as confusing correlation with causation, succumbing to confirmation bias, and failing to acknowledge the limitations of the survey sample and response rate
+
+<div class="section level2 unnumbered">
+  <h2 class="no-stick"><strong>Audio Overview</strong></h2>
+  <center>
+    <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.podcasts.apple.com/us/podcast/sr-basic-data-analysis/id1780125002?i=1000718486685"></iframe>
+  </center>
+</div>

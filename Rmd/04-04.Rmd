@@ -1,0 +1,32 @@
+# Ethical Considerations {-}
+
+Ethical conduct is the bedrock of credible survey research. It is not a secondary concern or a bureaucratic hurdle, but a fundamental responsibility that researchers owe to their participants, their professional community, and the public. A failure in ethical practice not only risks harming individuals but also undermines the trust necessary for people to participate in future research, thereby compromising the validity of the entire field. The core principle is respect for persons, which manifests through a commitment to protecting participant rights, welfare, and dignity throughout the research process
+
+## **Informed Consent** {-}
+
+Informed consent is the cornerstone of ethical research involving human participants. It is an active, ongoing process, not merely a signature on a form. Before an individual agrees to participate in a survey, they must be provided with clear, understandable information that allows them to make a voluntary and informed decision. This is especially critical in online surveys where the researcher is not present to answer questions. Essential elements of informed consent include:
+
+* A clear statement that the activity is for research purposes, including the study's objective and expected duration
+* A description of the procedures—what the participant will be asked to do
+* An honest assessment of any foreseeable risks or discomforts (e.g., emotional distress from sensitive questions) and any potential benefits to the participant or society
+* A statement on how confidentiality will be maintained and data will be secured
+* An explicit declaration that participation is completely voluntary and that the participant can refuse to answer any question or withdraw from the study at any time without penalty
+* Contact information for the lead researcher and, typically, for an independent body like an Institutional Review Board (IRB) should the participant have questions about their rights
+
+## **Anonymity and Confidentiality** {-}
+
+These two terms are often used interchangeably, but they represent distinct levels of protection. **Anonymity** means that there is no way for anyone, including the researcher, to link a participant's identity to their responses. A truly anonymous survey does not collect any personally identifiable information (PII), such as name, email address, or IP address. This is the highest level of privacy protection
+
+**Confidentiality**, which is more common in survey research, means that while the researcher can identify a participant’s responses, they promise not to disclose that information publicly or to any unauthorized party. Researchers maintain confidentiality by implementing strict data protection protocols, such as:
+
+* Assigning numerical or alphanumeric codes to participants and storing the key linking codes to names in a separate, encrypted file
+* Removing direct identifiers from the dataset as soon as they are no longer needed (e.g., after a follow-up survey is complete)
+* Reporting data only in aggregate form, ensuring that no individual can be identified through a unique combination of demographic characteristics
+
+## **Data Security** {-}
+
+Data security is the practical implementation of confidentiality. It involves protecting the collected information from unauthorized access, breach, or loss. Security measures must cover the entire data lifecycle, from collection to storage and eventual destruction. In the digital age, this requires robust technical safeguards, including using secure survey platforms, encrypting data both in transit and at rest, employing strong passwords and multi-factor authentication for access, and storing data on secure, firewall-protected servers. Physical data, like paper surveys or signed consent forms, must be kept in locked cabinets in secure locations. A data management plan should explicitly outline who has access to the data, how it will be stored, and when and how it will be securely destroyed
+
+## **Institutional Review Board (IRB) Review Processes** {-}
+
+In academic, clinical, and many other institutional settings, any research involving human participants must undergo a formal review by an Institutional Review Board (IRB) or an equivalent research ethics committee. An IRB is an independent committee of scientists and non-scientists tasked with upholding ethical standards and protecting the rights and welfare of research participants. Researchers must submit a detailed proposal that includes the survey instrument, recruitment materials, informed consent documents, and data security plans. The IRB evaluates the study's design to ensure that risks to participants are minimized, benefits are maximized, the selection of participants is equitable, and the consent process is truly informed and voluntary. Research cannot begin until the IRB grants its approval. This external oversight provides a crucial check on a researcher’s potential biases and ensures accountability to established ethical norms

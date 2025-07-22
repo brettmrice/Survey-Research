@@ -1,0 +1,39 @@
+# Data Cleaning & Validation {-}
+
+Once survey data is collected and compiled, it exists in a raw state. This raw data is rarely, if ever, ready for immediate analysis. It often contains errors, gaps, and contradictions that can severely bias results and lead to incorrect conclusions. The process of transforming this raw data into a high-quality, reliable dataset is known as data cleaning and validation. This is a meticulous and often iterative step, but it is a non-negotiable prerequisite for sound research. The goal is not to manipulate the data to fit a hypothesis, but to ensure it is an accurate and consistent representation of the responses received. This process primarily involves identifying and handling missing data, outliers, and inconsistencies
+
+## **Identifying and Handling Missing Data** {-}
+
+Missing data occurs when a respondent fails to provide an answer for one or more questions. This can happen for various reasons, such as a refusal to answer a sensitive question, accidentally skipping a question, or technical errors during data entry. How you handle missing data depends heavily on why it is missing
+
+* **Missing Completely at Random (MCAR):** The absence of data is unrelated to any other variable or the value of the missing item itself. For instance, if a server glitch caused a few random responses to be lost. This is the least problematic scenario
+* **Missing at Random (MAR):** The probability of a value being missing is related to another observed variable in the dataset, but not the missing value itself. For example, men might be less likely to answer questions about emotional vulnerability, but their propensity to answer is not related to their actual level of vulnerability, only their gender (which is observed)
+* **Missing Not at Random (MNAR):** The reason for the missingness is related to the value that would have been provided. For example, individuals with very high incomes are often less likely to report their income. This is the most difficult type of missing data to handle, as it introduces systematic bias
+
+Common strategies for handling missing data include:
+
+* **Listwise or Casewise Deletion:** This involves removing any respondent (case) with a missing value on any of the variables being analyzed. While simple, this approach can significantly reduce sample size and statistical power. It is only considered safe if the data is MCAR; otherwise, it can introduce substantial bias
+* **Imputation:** This is the process of replacing missing values with plausible estimates. Simple methods like mean, median, or mode imputation are easy to implement but can distort the data's variance and its relationships with other variables. More sophisticated techniques, such as regression imputation (predicting the missing value based on other variables) or multiple imputation (creating several complete datasets with different plausible values and pooling the results), are generally preferred as they better preserve the underlying structure and uncertainty of the data
+
+## **Identifying and Handling Outliers** {-}
+
+Outliers are data points that are exceptionally distant from the majority of other observations. They can be legitimate but extreme values (e.g., a billionaire in an income survey) or they can be errors (e.g., a respondent's age entered as 220 instead of 22). It is critical to investigate outliers before deciding how to treat them. Visual inspection using tools like box plots and scatter plots is an effective first step. Statistical methods, such as calculating Z-scores or using the interquartile range (IQR) to define acceptable limits, provide more formal rules for identification
+
+When an outlier is identified, several actions can be considered:
+
+* **Correction:** If the outlier is a clear data entry error, it should be corrected by referencing the original survey form or data source
+* **Deletion:** Removing an outlier is a drastic step and should only be taken if there is strong evidence that the data point is an error and is not a true, albeit extreme, representation of the population. Deleting legitimate outliers can misrepresent the full range of possibilities in your sample
+* **Transformation:** Applying a mathematical function (e.g., a logarithmic or square root transformation) can pull extreme values closer to the center of the distribution, reducing their influence on statistical analyses, particularly those that assume normality
+* **Winsorizing:** This involves capping extreme values by replacing them with the highest or lowest value within an acceptable range. For example, all values above the 99th percentile might be set equal to the value at the 99th percentile
+
+## **Identifying and Handling Inconsistencies** {-}
+
+Inconsistencies are logical contradictions within a single respondent's set of answers. They undermine the credibility of the data and must be resolved. These are often discovered through logic checks, which are programmed rules that scan the data for impossible or highly improbable combinations
+
+Examples of inconsistencies include:
+
+* A respondent who indicates they are 12 years old but also reports having a doctoral degree
+* A respondent who selects "Male" for gender but then reports having given birth to three children
+* A respondent who answers "No" to the filter question "Do you own a car?" but then proceeds to answer follow-up questions about the make and model of their car
+
+Handling inconsistencies requires careful judgment. The first step should always be to check for data entry errors. If no error is found, the researcher must decide how to proceed. It may be possible to infer the correct answer (e.g., the answer to the filter question was likely "Yes" in the car example). However, when a logical resolution is not possible, the most conservative approach is to set the conflicting values to "missing." This acknowledges that the data is unreliable for that specific item or set of items without discarding the respondent's entire survey. Every decision made during the cleaning and validation phase should be meticulously documented in a process known as "data-logging" or creating a "codebook," ensuring the transparency and replicability of the research

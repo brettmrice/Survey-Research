@@ -1,0 +1,58 @@
+# Strengths & Limitations {-}
+
+Survey research is one of the most widely used methods in the social sciences, prized for its ability to gather vast amounts of data from large populations. However, like any research method, it possesses a distinct set of strengths and weaknesses. A skilled researcher does not see surveys as inherently "good" or "bad," but rather as a tool that is well-suited for some research questions and poorly suited for others. Understanding this balance is fundamental to designing robust studies and interpreting their findings accurately
+
+## **Strengths of Survey Research** {-}
+
+Surveys offer several powerful advantages that have cemented their role as a cornerstone of empirical inquiry
+
+### **Efficiency and Cost-Effectiveness** {-}
+
+Surveys are an exceptionally efficient way to collect data from a large number of people. Compared to methods like in-depth interviews or direct observation, which require significant time per participant, a single researcher can deploy a survey to hundreds or thousands of respondents simultaneously, especially with modern online platforms. This makes surveys a cost-effective method for gathering data on a scale that would be prohibitive for most other approaches
+
+### **Generalizability** {-}
+
+When conducted with rigorous sampling techniques, surveys excel at producing generalizable results. By selecting a representative sample from a larger population of interest, researchers can make statistically valid inferences about that entire population. This principle of **external validity** is the foundation of public opinion polling, national health censuses, and market research. A well-designed survey of 1,500 people can, with a known margin of error, reflect the attitudes and behaviors of millions
+
+### **Versatility** {-}
+
+The survey is a remarkably versatile instrument. It can be used to collect information on an almost limitless range of topics, including:
+
+* **Attitudes and Opinions:** (e.g., political views, satisfaction with a service)
+* **Behaviors:** (e.g., voting habits, consumer choices, health practices)
+* **Factual Information:** (e.g., demographics, income, education level)
+* **Beliefs and Norms:** (e.g., religious convictions, cultural values)
+
+This adaptability makes surveys applicable across diverse fields, from sociology and political science to public health and marketing
+
+### **Standardization and Reliability** {-}
+
+By presenting all respondents with the same questions in the same order, surveys are a highly standardized method of data collection. This standardization reduces the potential for **interviewer bias** and ensures that responses are comparable across all participants. The structured nature of survey data, especially from closed-ended questions, facilitates straightforward quantitative analysis. This high degree of control contributes to the **reliability** of the measure—meaning that if the survey were administered again under similar conditions, it would likely produce similar results
+
+## **Limitations of Survey Research** {-}
+
+Despite their strengths, surveys have significant limitations that researchers must actively manage and acknowledge
+
+### **Challenges with Establishing Causality** {-}
+
+Perhaps the most critical limitation of survey research, especially cross-sectional surveys, is the difficulty of establishing causal relationships. A survey can reveal that two variables, such as income and happiness, are correlated. However, correlation does not equal causation. From this finding alone, we cannot determine if higher income causes happiness, if happiness leads to higher income, or if a third variable (e.g., education, health) causes both. While advanced longitudinal surveys (which track the same individuals over time) can provide stronger evidence for causality, a single survey generally provides only a snapshot in time
+
+### **Reliance on Self-Report and Associated Biases** {-}
+
+Surveys measure what people *say* they think or do, which is not always the same as what they *actually* think or do. This reliance on self-report data opens the door to several well-documented biases:
+
+* **Social Desirability Bias:** Respondents may provide answers that they believe will be viewed favorably by others, rather than their true opinion. For example, they might over-report their frequency of voting or charitable giving and under-report undesirable behaviors like substance use
+* **Recall Bias:** People's memories are fallible. Asking a respondent to accurately recall how many hours of television they watched last month or the exact details of a past event is likely to produce imprecise data
+* **Response Set Bias:** Some respondents fall into patterns, such as agreeing with every statement (**acquiescence bias**) or consistently choosing the neutral option, often without carefully considering each question
+
+### **Inflexibility and Lack of Depth** {-}
+
+The strength of standardization is also a weakness. Once a survey is deployed, the questions are fixed. The researcher cannot ask spontaneous follow-up questions to clarify a confusing response or probe deeper into an interesting answer. Closed-ended questions, while easy to analyze, can force respondents into predefined categories that do not fully capture the complexity or nuance of their true position. In this way, surveys are excellent for answering questions of "**what**" and "**how many**," but often fall short of explaining "**why**"
+
+### **Potential for Sampling and Nonresponse Errors** {-}
+
+The generalizability of a survey is entirely dependent on the quality of its sample
+
+* **Coverage Error:** occurs when the list from which the sample is drawn (the sampling frame) does not accurately represent the population (e.g., a survey using landline phone numbers will miss cell-phone-only households)
+* **Nonresponse Bias:** is a growing challenge. If the people who choose to participate in a survey are systematically different from those who do not, the results will be biased, even if the initial sample was perfectly selected. For instance, a political survey may over-represent individuals with strong partisan views, as they are often more motivated to respond
+
